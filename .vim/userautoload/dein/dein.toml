@@ -3,3 +3,10 @@ repo = 'Shougo/dein.vim'
 
 [[plugins]]
 repo = 'Shougo/neocomplete.vim'
+
+[[plugins]]
+repo = 'cocopon/iceberg.vim'
+hook_add = '''
+    syntax on
+	colorscheme iceberg
+'''
