@@ -1,0 +1,7 @@
+[user]
+	useConfigOnly = true
+[core]
+	ignorecase = false
+	quotepath = false
+[push]
+	default = simple
