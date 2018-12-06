@@ -1,0 +1,103 @@
+{
+    "title": "M557",
+        "rules": [
+        {
+            "description": "M557のボタンカスタマイズ",
+            "manipulators": [
+            {
+                "description": "button3 to ctrl + ↑",
+                "type": "basic",
+                "from": {
+                    "pointing_button": "button3"
+                },
+                "to": [
+                {
+                    "key_code": "up_arrow",
+                    "modifiers": [
+                        "control"
+                    ]
+                }
+                ]
+            },
+            {
+                "description": "lang4 to mission control",
+                "type": "basic",
+                "from": {
+                    "key_code": "lang2"
+                },
+                "to": [
+                {
+                    "key_code": "up_arrow",
+                    "modifiers": [
+                        "control"
+                    ]
+                }
+                ],
+                "conditions": [
+                {
+                    "type": "device_if",
+                    "identifiers": [
+                    {
+                        "vendor_id": 1133,
+                        "product_id": 45072
+                    }
+                    ]
+                }
+                ]
+            },
+            {
+                "description": "button4 to move left space",
+                "type": "basic",
+                "from": {
+                    "pointing_button": "button4"
+                },
+                "to": [
+                {
+                    "key_code": "left_arrow",
+                    "modifiers": [
+                        "control"
+                    ]
+                }
+                ],
+                "conditions": [
+                {
+                    "type": "device_if",
+                    "identifiers": [
+                    {
+                        "vendor_id": 1133,
+                        "product_id": 45072
+                    }
+                    ]
+                }
+                ]
+            },
+            {
+                "description": "button4 to move right space",
+                "type": "basic",
+                "from": {
+                    "pointing_button": "button5"
+                },
+                "to": [
+                {
+                    "key_code": "right_arrow",
+                    "modifiers": [
+                        "control"
+                    ]
+                }
+                ],
+                "conditions": [
+                {
+                    "type": "device_if",
+                    "identifiers": [
+                    {
+                        "vendor_id": 1133,
+                        "product_id": 45072
+                    }
+                    ]
+                }
+                ]
+            }
+            ]
+        }
+    ]
+}

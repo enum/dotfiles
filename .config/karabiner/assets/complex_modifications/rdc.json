@@ -1,0 +1,58 @@
+{
+  "title": "Remote Desktop 2",
+  "rules": [
+    {
+      "description": "Microsoft Remote Desktop 10.x で左右コマンドをホスト側の左右Altに置き換える",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "left_command",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_option"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "com\\.microsoft\\.rdc\\.macos"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "right_command",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "right_option"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "com\\.microsoft\\.rdc\\.macos"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
