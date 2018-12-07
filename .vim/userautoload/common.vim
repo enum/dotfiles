@@ -7,6 +7,7 @@ set backspace=indent,eol,start
 set list
 set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 set showtabline=2
+set cursorline
 
 " indent
 set shiftwidth=4
