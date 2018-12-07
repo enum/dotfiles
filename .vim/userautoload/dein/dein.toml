@@ -42,6 +42,12 @@ repo = 'Shougo/neosnippet-snippets'
 # colorscheme ---------------
 
 [[plugins]]
+repo = 'itchyny/lightline.vim'
+hook_add = '''
+    set laststatus=2
+'''
+
+[[plugins]]
 repo = 'cocopon/iceberg.vim'
 hook_add = '''
     syntax on
