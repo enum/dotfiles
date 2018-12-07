@@ -8,5 +8,5 @@ repo = 'Shougo/neocomplete.vim'
 repo = 'cocopon/iceberg.vim'
 hook_add = '''
     syntax on
-	colorscheme iceberg
+    colorscheme iceberg
 '''
