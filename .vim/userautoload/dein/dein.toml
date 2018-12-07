@@ -52,6 +52,7 @@ repo = 'cocopon/iceberg.vim'
 hook_add = '''
     syntax on
     colorscheme iceberg
+    set termguicolors
 '''
 
 # misc ---------------
