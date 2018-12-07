@@ -1,6 +1,7 @@
 set encoding=utf-8   " see vim help options -> encoding
 scriptencoding utf-8 " see vim help repeat.txt -> using-scripts -> scriptencoding
 
+" editor
 set number
 
 " indent
