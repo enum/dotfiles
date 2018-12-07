@@ -4,6 +4,8 @@ scriptencoding utf-8 " see vim help repeat.txt -> using-scripts -> scriptencodin
 " editor
 set number
 set backspace=indent,eol,start
+set list
+set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 
 " indent
 set shiftwidth=4
