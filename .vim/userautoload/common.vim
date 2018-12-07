@@ -17,3 +17,5 @@ set smartindent
 set fileencoding=utf-8
 set fileencodings=ucs-boms,utf-8,euc-jp,cp932
 
+" for mac
+set clipboard+=unnamed
