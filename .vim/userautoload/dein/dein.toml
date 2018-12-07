@@ -3,6 +3,9 @@ repo = 'Shougo/dein.vim'
 
 [[plugins]]
 repo = 'Shougo/neocomplete.vim'
+hook_add = '''
+    NeoCompleteEnable
+'''
 
 [[plugins]]
 repo = 'cocopon/iceberg.vim'
