@@ -38,12 +38,17 @@ hook_add = '''
 
 [[plugins]]
 repo = 'Shougo/neosnippet-snippets'
+
+# colorscheme ---------------
+
 [[plugins]]
 repo = 'cocopon/iceberg.vim'
 hook_add = '''
     syntax on
     colorscheme iceberg
 '''
+
+# misc ---------------
 
 [[plugins]]
 repo = 'vim-jp/vimdoc-ja'
